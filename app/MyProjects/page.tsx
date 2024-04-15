@@ -80,8 +80,8 @@ const Projects = () => {
                     { src: nextjsPic, alt: "next.js" },
                   ]}
                   placeholderImg={eighthProject}
-                  demoUrl="https://apple-clone-omega-weld.vercel.app/"
-                  codeUrl="https://github.com/dadmehr1528/Apple-clone"
+                  demoUrl="https://dadmehr-portfolio.vercel.app/"
+                  codeUrl="https://github.com/dadmehr1528/Nextjs-portfolio-project"
                 />
                 <Card
                   title="Apple"
