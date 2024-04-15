@@ -83,9 +83,6 @@
   .cardIcon {
     margin-right: 2px;
   }
-  .cardIconLi {
-    border-radius: 7px;
-  }
   .button {
     color: #ffd100;
     border: 1px solid #ffd100;
@@ -307,6 +304,8 @@
   .project-img {
     width: 230px;
     height: 230px;
+    border-radius: 6px;
+
   }
 
   .project .title {
