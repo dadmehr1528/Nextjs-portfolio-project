@@ -23,6 +23,7 @@ import fourthProject from "../../assets/fourthProject.png";
 import fithProject from "../../assets/fithProject.png";
 import sixthProject from "../../assets/sixthProject.png";
 import seventhProject from "../../assets/seventhProject.png";
+import eighthProject from "../../assets/eighthProject.png";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Link from "next/link";
@@ -70,6 +71,18 @@ const Projects = () => {
             <section>
               <h4>My Projects:</h4>
               <div className="projects">
+              <Card
+                  title="Portfolio"
+                  description="This is my portfolio website."
+                  techIcons={[
+                    { src: tsPic, alt: "ts" },
+                    { src: reactPic, alt: "react" },
+                    { src: nextjsPic, alt: "next.js" },
+                  ]}
+                  placeholderImg={eighthProject}
+                  demoUrl="https://apple-clone-omega-weld.vercel.app/"
+                  codeUrl="https://github.com/dadmehr1528/Apple-clone"
+                />
                 <Card
                   title="Apple"
                   description="This is Iphone website clone."
